@@ -2,7 +2,7 @@ from tkinter import *
 sk=Tk()
 sk.geometry("290x540")
 sk.maxsize(290,540)
-sk.title("Calculater by Saheb kumar")
+sk.title("Calculator by Saheb kumar")
 def click(event):
     global scvalue
     text=event.widget.cget("text")
